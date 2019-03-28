@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add --dev node-mon babel-node
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\David\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Users\David\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Users\David\AppData\Local\Microsoft\WindowsApps;C:\Users\David\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\David\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  11.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/node-mon: Not found
+      at Request.params.callback [as _callback] (C:\Users\David\AppData\Roaming\nvm\v11.0.0\node_modules\yarn\lib\cli.js:62126:18)
+      at Request.self.callback (C:\Users\David\AppData\Roaming\nvm\v11.0.0\node_modules\yarn\lib\cli.js:124482:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\David\AppData\Roaming\nvm\v11.0.0\node_modules\yarn\lib\cli.js:125454:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\David\AppData\Roaming\nvm\v11.0.0\node_modules\yarn\lib\cli.js:125376:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
+
+npm manifest: 
+  {
+    "name": "cs490-server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "David Liu <david-lky@hotmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

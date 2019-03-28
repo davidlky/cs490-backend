@@ -1,0 +1,21 @@
+{
+	"name": "cs490-server",
+	"version": "1.0.0",
+	"main": "server.js",
+	"author": "David Liu <david-lky@hotmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon --exec babel-node server.js"
+	},
+	"dependencies": {
+		"@babel/core": "^7.4.0",
+		"@babel/node": "^7.2.2",
+		"@babel/preset-env": "^7.4.2",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"nodemon": "^1.18.10"
+  },
+  "presets": ["@babel/preset-env"],
+	"browserslist": "> 0.25%, not dead",
+	"targets": "> 0.25%, not dead"
+}
