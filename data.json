@@ -1,19 +1,1261 @@
 {
-  "posts": [
+  "orders": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "order_date": "Fri Apr 05 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Wed Apr 10 2019",
+      "order_confirmation": 3263,
+      "order_id": 4903
+    },
+    {
+      "order_date": "Thu Apr 04 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Mon Apr 08 2019",
+      "order_confirmation": 4919,
+      "order_id": 2526
+    },
+    {
+      "order_date": "Sun Apr 07 2019",
+      "order_status": "Ready for Shipment",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 4063,
+      "order_id": 2422
+    },
+    {
+      "order_date": "Sat Apr 06 2019",
+      "order_status": "On Vehicle For Delivery",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 1769,
+      "order_id": 2375
+    },
+    {
+      "order_date": "Sun Apr 07 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Wed Apr 10 2019",
+      "order_confirmation": 3800,
+      "order_id": 1954
+    },
+    {
+      "order_date": "Sat Apr 06 2019",
+      "order_status": "Arrived in Warehouse",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 1219,
+      "order_id": 1805
+    },
+    {
+      "order_date": "Thu Apr 04 2019",
+      "order_status": "Arrived",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 1023,
+      "order_id": 4833
+    },
+    {
+      "order_date": "Mon Apr 08 2019",
+      "order_status": "On Vehicle For Delivery",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 2445,
+      "order_id": 1226
+    },
+    {
+      "order_date": "Thu Apr 04 2019",
+      "order_status": "Arrived in Warehouse",
+      "estimated_delivery_date": "Sun Apr 07 2019",
+      "order_confirmation": 2613,
+      "order_id": 3446
+    },
+    {
+      "order_date": "Thu Apr 04 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Thu Apr 04 2019",
+      "order_confirmation": 3435,
+      "order_id": 1226
+    },
+    {
+      "order_date": "Mon Apr 08 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Thu Apr 11 2019",
+      "order_confirmation": 4409,
+      "order_id": 3049
+    },
+    {
+      "order_date": "Wed Apr 03 2019",
+      "order_status": "Arrived",
+      "estimated_delivery_date": "Sun Apr 07 2019",
+      "order_confirmation": 1885,
+      "order_id": 4458
+    },
+    {
+      "order_date": "Fri Apr 05 2019",
+      "order_status": "Arrived",
+      "estimated_delivery_date": "Fri Apr 05 2019",
+      "order_confirmation": 1568,
+      "order_id": 4756
+    },
+    {
+      "order_date": "Sun Apr 07 2019",
+      "order_status": "Ready for Shipment",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 4314,
+      "order_id": 1872
+    },
+    {
+      "order_date": "Wed Apr 03 2019",
+      "order_status": "Arrived in Warehouse",
+      "estimated_delivery_date": "Thu Apr 04 2019",
+      "order_confirmation": 1802,
+      "order_id": 2089
+    },
+    {
+      "order_date": "Sun Apr 07 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Sun Apr 07 2019",
+      "order_confirmation": 1355,
+      "order_id": 2153
+    },
+    {
+      "order_date": "Sun Apr 07 2019",
+      "order_status": "On Vehicle For Delivery",
+      "estimated_delivery_date": "Tue Apr 09 2019",
+      "order_confirmation": 4231,
+      "order_id": 4789
+    },
+    {
+      "order_date": "Fri Apr 05 2019",
+      "order_status": "On Vehicle For Delivery",
+      "estimated_delivery_date": "Sun Apr 07 2019",
+      "order_confirmation": 3381,
+      "order_id": 2962
+    },
+    {
+      "order_date": "Sat Apr 06 2019",
+      "order_status": "Preparing for Shipment",
+      "estimated_delivery_date": "Sun Apr 07 2019",
+      "order_confirmation": 1624,
+      "order_id": 1005
+    },
+    {
+      "order_date": "Fri Apr 05 2019",
+      "order_status": "Arrived",
+      "estimated_delivery_date": "Mon Apr 08 2019",
+      "order_confirmation": 2942,
+      "order_id": 4824
     }
   ],
-  "comments": [
+  "inventory": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "inventory_id": "Wed Apr 03 2019",
+      "name": "Handlebars",
+      "location": 2053,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 15
+    },
+    {
+      "inventory_id": "Sat Apr 06 2019",
+      "name": "Engines",
+      "location": 4104,
+      "location_details": {
+        "address": "200 University Avenue, Waterloo, Canada",
+        "name": "Warehouse A"
+      },
+      "inventory": 9
+    },
+    {
+      "inventory_id": "Sun Apr 07 2019",
+      "name": "Engines",
+      "location": 2947,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 22
+    },
+    {
+      "inventory_id": "Mon Apr 08 2019",
+      "name": "Engines",
+      "location": 1338,
+      "location_details": {
+        "address": "200 University Avenue, Waterloo, Canada",
+        "name": "Warehouse A"
+      },
+      "inventory": 21
+    },
+    {
+      "inventory_id": "Fri Apr 05 2019",
+      "name": "Engines",
+      "location": 1065,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 9
+    },
+    {
+      "inventory_id": "Sun Apr 07 2019",
+      "name": "Kick Stand",
+      "location": 2049,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 55
+    },
+    {
+      "inventory_id": "Fri Apr 05 2019",
+      "name": "Kick Stand",
+      "location": 1466,
+      "inventory": 35
+    },
+    {
+      "inventory_id": "Fri Apr 05 2019",
+      "name": "Handlebars",
+      "location": 4553,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 27
+    },
+    {
+      "inventory_id": "Sat Apr 06 2019",
+      "name": "Kick Stand",
+      "location": 2278,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "inventory": 34
+    },
+    {
+      "inventory_id": "Sat Apr 06 2019",
+      "name": "Break Pads",
+      "location": 1102,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "inventory": 10
+    },
+    {
+      "inventory_id": "Sat Apr 06 2019",
+      "name": "Engines",
+      "location": 4483,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "inventory": 26
+    },
+    {
+      "inventory_id": "Sun Apr 07 2019",
+      "name": "Engines",
+      "location": 2299,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "inventory": 30
+    },
+    {
+      "inventory_id": "Fri Apr 05 2019",
+      "name": "Break Pads",
+      "location": 3954,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "inventory": 15
+    },
+    {
+      "inventory_id": "Fri Apr 05 2019",
+      "name": "Engines",
+      "location": 3187,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 34
+    },
+    {
+      "inventory_id": "Thu Apr 04 2019",
+      "name": "Gas Line",
+      "location": 4755,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "inventory": 9
+    },
+    {
+      "inventory_id": "Sat Apr 06 2019",
+      "name": "Engines",
+      "location": 2317,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 44
+    },
+    {
+      "inventory_id": "Sat Apr 06 2019",
+      "name": "Gas Line",
+      "location": 3053,
+      "inventory": 22
+    },
+    {
+      "inventory_id": "Thu Apr 04 2019",
+      "name": "Gas Line",
+      "location": 2944,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 54
+    },
+    {
+      "inventory_id": "Thu Apr 04 2019",
+      "name": "Handlebars",
+      "location": 2999,
+      "inventory": 35
+    },
+    {
+      "inventory_id": "Mon Apr 08 2019",
+      "name": "Gas Line",
+      "location": 2767,
+      "location_details": {
+        "address": "200 Weber Avenue, Waterloo, Canada",
+        "name": "Warehouse C"
+      },
+      "inventory": 28
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "inventoryGraph": {
+    "url": "http://www.barry4homes.net/wp-content/uploads/2017/08/August-Naples-Market-Report-Months-of-Inventory-Graph.jpg"
+  },
+  "scheduling": [
+    {
+      "type": "Normal, Large",
+      "price": 16.55,
+      "currency": "CAD",
+      "estimated_days": 10
+    },
+    {
+      "type": "Normal",
+      "price": 99.55,
+      "currency": "CAD",
+      "estimated_days": 8
+    },
+    {
+      "type": "Normal, Large",
+      "price": 68.53,
+      "currency": "CAD",
+      "estimated_days": 2
+    },
+    {
+      "type": "Urgent, Fragile",
+      "price": 35.2,
+      "currency": "CAD",
+      "estimated_days": 11
+    },
+    {
+      "type": "Normal",
+      "price": 85.87,
+      "currency": "CAD",
+      "estimated_days": 2
+    },
+    {
+      "type": "Normal, Large",
+      "price": 59.54,
+      "currency": "CAD",
+      "estimated_days": 8
+    },
+    {
+      "type": "Normal",
+      "price": 107.6,
+      "currency": "CAD",
+      "estimated_days": 3
+    },
+    {
+      "type": "Normal",
+      "price": 57.61,
+      "currency": "CAD",
+      "estimated_days": 1
+    },
+    {
+      "type": "Slow, Large",
+      "price": 89.11,
+      "currency": "CAD",
+      "estimated_days": 9
+    },
+    {
+      "type": "Urgent",
+      "price": 109.72,
+      "currency": "CAD",
+      "estimated_days": 6
+    },
+    {
+      "type": "Slow, Large",
+      "price": 89.47,
+      "currency": "CAD",
+      "estimated_days": 3
+    },
+    {
+      "type": "Urgent, Fragile",
+      "price": 102.66,
+      "currency": "CAD",
+      "estimated_days": 2
+    },
+    {
+      "type": "Urgent",
+      "price": 32.82,
+      "currency": "CAD",
+      "estimated_days": 7
+    },
+    {
+      "type": "Slow",
+      "price": 84.98,
+      "currency": "CAD",
+      "estimated_days": 4
+    },
+    {
+      "type": "Slow",
+      "price": 26.53,
+      "currency": "CAD",
+      "estimated_days": 7
+    },
+    {
+      "type": "Normal, Large",
+      "price": 69.58,
+      "currency": "CAD",
+      "estimated_days": 1
+    },
+    {
+      "type": "Slow",
+      "price": 67.37,
+      "currency": "CAD",
+      "estimated_days": 4
+    },
+    {
+      "type": "Slow",
+      "price": 59.5,
+      "currency": "CAD",
+      "estimated_days": 7
+    },
+    {
+      "type": "Slow, Large",
+      "price": 49.63,
+      "currency": "CAD",
+      "estimated_days": 11
+    },
+    {
+      "type": "Urgent",
+      "price": 65.07,
+      "currency": "CAD",
+      "estimated_days": 3
+    }
+  ],
+  "locationSummary": [
+    {
+      "location": 0,
+      "location_details": {
+        "address": "200 University Avenue, Waterloo, Canada",
+        "name": "Warehouse A"
+      },
+      "price": 51.76,
+      "currency": "CAD",
+      "current_inventory_free": 9,
+      "current_inventory_filled": 468,
+      "incoming_orders_5_day": 10,
+      "incoming_orders_10_day": 40,
+      "incoming_orders_31_day": 71,
+      "outgoing_orders_5_day": 8,
+      "outgoing_orders_10_day": 37,
+      "outgoing_orders_31_day": 65,
+      "order_delays_5_day": 10,
+      "order_delays_10_day": 13,
+      "order_delays_31_day": 20
+    },
+    {
+      "location": 1,
+      "location_details": {
+        "address": "200 Lester Avenue, Waterloo, Canada",
+        "name": "Warehouse B"
+      },
+      "price": 68.8,
+      "currency": "CAD",
+      "current_inventory_free": 6,
+      "current_inventory_filled": 437,
+      "incoming_orders_5_day": 19,
+      "incoming_orders_10_day": 37,
+      "incoming_orders_31_day": 67,
+      "outgoing_orders_5_day": 9,
+      "outgoing_orders_10_day": 37,
+      "outgoing_orders_31_day": 49,
+      "order_delays_5_day": 6,
+      "order_delays_10_day": 13,
+      "order_delays_31_day": 21
+    },
+    {
+      "location": 2,
+      "price": 58.68,
+      "currency": "CAD",
+      "current_inventory_free": 3,
+      "current_inventory_filled": 413,
+      "incoming_orders_5_day": 10,
+      "incoming_orders_10_day": 34,
+      "incoming_orders_31_day": 81,
+      "outgoing_orders_5_day": 12,
+      "outgoing_orders_10_day": 33,
+      "outgoing_orders_31_day": 86,
+      "order_delays_5_day": 5,
+      "order_delays_10_day": 12,
+      "order_delays_31_day": 22
+    }
+  ],
+  "sales": [
+    {
+      "start_date": "Sat Apr 06 2019",
+      "end_date": "Mon Apr 08 2019",
+      "inventory_level": 107,
+      "product_id": 3901,
+      "forecasts": [
+        {
+          "start_date": "Wed Apr 03 2019",
+          "end_date": "Mon Apr 08 2019",
+          "inventory_level": 105,
+          "inventory_level_required": 127,
+          "orders_in_last_period": 49,
+          "inventory_end_of_period": 136
+        },
+        {
+          "start_date": "Wed Apr 03 2019",
+          "end_date": "Mon Apr 08 2019",
+          "inventory_level": 105,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 34,
+          "inventory_end_of_period": 126
+        },
+        {
+          "start_date": "Wed Apr 03 2019",
+          "end_date": "Mon Apr 08 2019",
+          "inventory_level": 101,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 42,
+          "inventory_end_of_period": 134
+        }
+      ]
+    },
+    {
+      "start_date": "Sat Apr 06 2019",
+      "end_date": "Wed Apr 10 2019",
+      "inventory_level": 110,
+      "product_id": 3561,
+      "forecasts": [
+        {
+          "start_date": "Mon Apr 08 2019",
+          "end_date": "Sat Apr 13 2019",
+          "inventory_level": 104,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 36,
+          "inventory_end_of_period": 122
+        },
+        {
+          "start_date": "Mon Apr 08 2019",
+          "end_date": "Sat Apr 13 2019",
+          "inventory_level": 114,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 39,
+          "inventory_end_of_period": 121
+        },
+        {
+          "start_date": "Mon Apr 08 2019",
+          "end_date": "Sat Apr 13 2019",
+          "inventory_level": 115,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 46,
+          "inventory_end_of_period": 134
+        }
+      ]
+    },
+    {
+      "start_date": "Sun Apr 07 2019",
+      "end_date": "Mon Apr 08 2019",
+      "inventory_level": 104,
+      "product_id": 6218,
+      "forecasts": [
+        {
+          "start_date": "Sat Apr 13 2019",
+          "end_date": "Thu Apr 18 2019",
+          "inventory_level": 105,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 34,
+          "inventory_end_of_period": 125
+        },
+        {
+          "start_date": "Sat Apr 13 2019",
+          "end_date": "Thu Apr 18 2019",
+          "inventory_level": 102,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 47,
+          "inventory_end_of_period": 128
+        },
+        {
+          "start_date": "Sat Apr 13 2019",
+          "end_date": "Thu Apr 18 2019",
+          "inventory_level": 106,
+          "inventory_level_required": 123,
+          "orders_in_last_period": 33,
+          "inventory_end_of_period": 134
+        }
+      ]
+    },
+    {
+      "start_date": "Thu Apr 04 2019",
+      "end_date": "Fri Apr 05 2019",
+      "inventory_level": 100,
+      "product_id": 3586,
+      "forecasts": [
+        {
+          "start_date": "Thu Apr 18 2019",
+          "end_date": "Tue Apr 23 2019",
+          "inventory_level": 105,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 50,
+          "inventory_end_of_period": 125
+        },
+        {
+          "start_date": "Thu Apr 18 2019",
+          "end_date": "Tue Apr 23 2019",
+          "inventory_level": 111,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 45,
+          "inventory_end_of_period": 138
+        },
+        {
+          "start_date": "Thu Apr 18 2019",
+          "end_date": "Tue Apr 23 2019",
+          "inventory_level": 110,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 44,
+          "inventory_end_of_period": 126
+        }
+      ]
+    },
+    {
+      "start_date": "Sun Apr 07 2019",
+      "end_date": "Wed Apr 10 2019",
+      "inventory_level": 105,
+      "product_id": 6567,
+      "forecasts": [
+        {
+          "start_date": "Tue Apr 23 2019",
+          "end_date": "Sun Apr 28 2019",
+          "inventory_level": 113,
+          "inventory_level_required": 129,
+          "orders_in_last_period": 34,
+          "inventory_end_of_period": 129
+        },
+        {
+          "start_date": "Tue Apr 23 2019",
+          "end_date": "Sun Apr 28 2019",
+          "inventory_level": 116,
+          "inventory_level_required": 123,
+          "orders_in_last_period": 48,
+          "inventory_end_of_period": 125
+        },
+        {
+          "start_date": "Tue Apr 23 2019",
+          "end_date": "Sun Apr 28 2019",
+          "inventory_level": 104,
+          "inventory_level_required": 129,
+          "orders_in_last_period": 41,
+          "inventory_end_of_period": 122
+        }
+      ]
+    },
+    {
+      "start_date": "Thu Apr 04 2019",
+      "end_date": "Mon Apr 08 2019",
+      "inventory_level": 109,
+      "product_id": 6084,
+      "forecasts": [
+        {
+          "start_date": "Sun Apr 28 2019",
+          "end_date": "Fri May 03 2019",
+          "inventory_level": 108,
+          "inventory_level_required": 123,
+          "orders_in_last_period": 35,
+          "inventory_end_of_period": 125
+        },
+        {
+          "start_date": "Sun Apr 28 2019",
+          "end_date": "Fri May 03 2019",
+          "inventory_level": 110,
+          "inventory_level_required": 127,
+          "orders_in_last_period": 45,
+          "inventory_end_of_period": 130
+        },
+        {
+          "start_date": "Sun Apr 28 2019",
+          "end_date": "Fri May 03 2019",
+          "inventory_level": 113,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 33,
+          "inventory_end_of_period": 138
+        }
+      ]
+    },
+    {
+      "start_date": "Fri Apr 05 2019",
+      "end_date": "Fri Apr 05 2019",
+      "inventory_level": 105,
+      "product_id": 6888,
+      "forecasts": [
+        {
+          "start_date": "Fri May 03 2019",
+          "end_date": "Mon Apr 08 2019",
+          "inventory_level": 119,
+          "inventory_level_required": 120,
+          "orders_in_last_period": 39,
+          "inventory_end_of_period": 136
+        },
+        {
+          "start_date": "Fri May 03 2019",
+          "end_date": "Mon Apr 08 2019",
+          "inventory_level": 103,
+          "inventory_level_required": 129,
+          "orders_in_last_period": 40,
+          "inventory_end_of_period": 140
+        },
+        {
+          "start_date": "Fri May 03 2019",
+          "end_date": "Mon Apr 08 2019",
+          "inventory_level": 104,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 50,
+          "inventory_end_of_period": 137
+        }
+      ]
+    },
+    {
+      "start_date": "Sat Apr 06 2019",
+      "end_date": "Sun Apr 07 2019",
+      "inventory_level": 114,
+      "product_id": 4229,
+      "forecasts": [
+        {
+          "start_date": "Wed May 08 2019",
+          "end_date": "Sat Apr 13 2019",
+          "inventory_level": 104,
+          "inventory_level_required": 130,
+          "orders_in_last_period": 50,
+          "inventory_end_of_period": 129
+        },
+        {
+          "start_date": "Wed May 08 2019",
+          "end_date": "Sat Apr 13 2019",
+          "inventory_level": 117,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 32,
+          "inventory_end_of_period": 137
+        },
+        {
+          "start_date": "Wed May 08 2019",
+          "end_date": "Sat Apr 13 2019",
+          "inventory_level": 119,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 41,
+          "inventory_end_of_period": 128
+        }
+      ]
+    },
+    {
+      "start_date": "Sat Apr 06 2019",
+      "end_date": "Sun Apr 07 2019",
+      "inventory_level": 109,
+      "product_id": 3467,
+      "forecasts": [
+        {
+          "start_date": "Mon May 13 2019",
+          "end_date": "Thu Apr 18 2019",
+          "inventory_level": 108,
+          "inventory_level_required": 123,
+          "orders_in_last_period": 31,
+          "inventory_end_of_period": 124
+        },
+        {
+          "start_date": "Mon May 13 2019",
+          "end_date": "Thu Apr 18 2019",
+          "inventory_level": 104,
+          "inventory_level_required": 127,
+          "orders_in_last_period": 37,
+          "inventory_end_of_period": 138
+        },
+        {
+          "start_date": "Mon May 13 2019",
+          "end_date": "Thu Apr 18 2019",
+          "inventory_level": 118,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 35,
+          "inventory_end_of_period": 121
+        }
+      ]
+    },
+    {
+      "start_date": "Sun Apr 07 2019",
+      "end_date": "Mon Apr 08 2019",
+      "inventory_level": 118,
+      "product_id": 4627,
+      "forecasts": [
+        {
+          "start_date": "Sat May 18 2019",
+          "end_date": "Tue Apr 23 2019",
+          "inventory_level": 104,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 38,
+          "inventory_end_of_period": 137
+        },
+        {
+          "start_date": "Sat May 18 2019",
+          "end_date": "Tue Apr 23 2019",
+          "inventory_level": 113,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 41,
+          "inventory_end_of_period": 136
+        },
+        {
+          "start_date": "Sat May 18 2019",
+          "end_date": "Tue Apr 23 2019",
+          "inventory_level": 111,
+          "inventory_level_required": 123,
+          "orders_in_last_period": 38,
+          "inventory_end_of_period": 120
+        }
+      ]
+    },
+    {
+      "start_date": "Thu Apr 04 2019",
+      "end_date": "Sun Apr 07 2019",
+      "inventory_level": 103,
+      "product_id": 1898,
+      "forecasts": [
+        {
+          "start_date": "Thu May 23 2019",
+          "end_date": "Sun Apr 28 2019",
+          "inventory_level": 115,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 46,
+          "inventory_end_of_period": 133
+        },
+        {
+          "start_date": "Thu May 23 2019",
+          "end_date": "Sun Apr 28 2019",
+          "inventory_level": 109,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 31,
+          "inventory_end_of_period": 123
+        },
+        {
+          "start_date": "Thu May 23 2019",
+          "end_date": "Sun Apr 28 2019",
+          "inventory_level": 112,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 49,
+          "inventory_end_of_period": 121
+        }
+      ]
+    },
+    {
+      "start_date": "Sat Apr 06 2019",
+      "end_date": "Thu Apr 11 2019",
+      "inventory_level": 114,
+      "product_id": 6461,
+      "forecasts": [
+        {
+          "start_date": "Tue May 28 2019",
+          "end_date": "Fri May 03 2019",
+          "inventory_level": 106,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 44,
+          "inventory_end_of_period": 131
+        },
+        {
+          "start_date": "Tue May 28 2019",
+          "end_date": "Fri May 03 2019",
+          "inventory_level": 119,
+          "inventory_level_required": 123,
+          "orders_in_last_period": 38,
+          "inventory_end_of_period": 130
+        },
+        {
+          "start_date": "Tue May 28 2019",
+          "end_date": "Fri May 03 2019",
+          "inventory_level": 108,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 47,
+          "inventory_end_of_period": 136
+        }
+      ]
+    },
+    {
+      "start_date": "Fri Apr 05 2019",
+      "end_date": "Sat Apr 06 2019",
+      "inventory_level": 102,
+      "product_id": 6015,
+      "forecasts": [
+        {
+          "start_date": "Sun Jun 02 2019",
+          "end_date": "Sun Apr 07 2019",
+          "inventory_level": 117,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 41,
+          "inventory_end_of_period": 125
+        },
+        {
+          "start_date": "Sun Jun 02 2019",
+          "end_date": "Sun Apr 07 2019",
+          "inventory_level": 113,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 48,
+          "inventory_end_of_period": 133
+        },
+        {
+          "start_date": "Sun Jun 02 2019",
+          "end_date": "Sun Apr 07 2019",
+          "inventory_level": 111,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 30,
+          "inventory_end_of_period": 125
+        }
+      ]
+    },
+    {
+      "start_date": "Fri Apr 05 2019",
+      "end_date": "Fri Apr 05 2019",
+      "inventory_level": 117,
+      "product_id": 3778,
+      "forecasts": [
+        {
+          "start_date": "Fri Jun 07 2019",
+          "end_date": "Fri Apr 12 2019",
+          "inventory_level": 112,
+          "inventory_level_required": 120,
+          "orders_in_last_period": 46,
+          "inventory_end_of_period": 121
+        },
+        {
+          "start_date": "Fri Jun 07 2019",
+          "end_date": "Fri Apr 12 2019",
+          "inventory_level": 111,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 49,
+          "inventory_end_of_period": 134
+        },
+        {
+          "start_date": "Fri Jun 07 2019",
+          "end_date": "Fri Apr 12 2019",
+          "inventory_level": 114,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 42,
+          "inventory_end_of_period": 129
+        }
+      ]
+    },
+    {
+      "start_date": "Thu Apr 04 2019",
+      "end_date": "Thu Apr 04 2019",
+      "inventory_level": 108,
+      "product_id": 4807,
+      "forecasts": [
+        {
+          "start_date": "Wed Jun 12 2019",
+          "end_date": "Wed Apr 17 2019",
+          "inventory_level": 116,
+          "inventory_level_required": 127,
+          "orders_in_last_period": 40,
+          "inventory_end_of_period": 139
+        },
+        {
+          "start_date": "Wed Jun 12 2019",
+          "end_date": "Wed Apr 17 2019",
+          "inventory_level": 108,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 41,
+          "inventory_end_of_period": 125
+        },
+        {
+          "start_date": "Wed Jun 12 2019",
+          "end_date": "Wed Apr 17 2019",
+          "inventory_level": 115,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 46,
+          "inventory_end_of_period": 126
+        }
+      ]
+    },
+    {
+      "start_date": "Mon Apr 08 2019",
+      "end_date": "Thu Apr 11 2019",
+      "inventory_level": 105,
+      "product_id": 2924,
+      "forecasts": [
+        {
+          "start_date": "Mon Jun 17 2019",
+          "end_date": "Mon Apr 22 2019",
+          "inventory_level": 102,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 35,
+          "inventory_end_of_period": 121
+        },
+        {
+          "start_date": "Mon Jun 17 2019",
+          "end_date": "Mon Apr 22 2019",
+          "inventory_level": 114,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 46,
+          "inventory_end_of_period": 123
+        },
+        {
+          "start_date": "Mon Jun 17 2019",
+          "end_date": "Mon Apr 22 2019",
+          "inventory_level": 112,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 42,
+          "inventory_end_of_period": 134
+        }
+      ]
+    },
+    {
+      "start_date": "Mon Apr 08 2019",
+      "end_date": "Sat Apr 13 2019",
+      "inventory_level": 106,
+      "product_id": 5593,
+      "forecasts": [
+        {
+          "start_date": "Sat Jun 22 2019",
+          "end_date": "Sat Apr 27 2019",
+          "inventory_level": 102,
+          "inventory_level_required": 122,
+          "orders_in_last_period": 38,
+          "inventory_end_of_period": 127
+        },
+        {
+          "start_date": "Sat Jun 22 2019",
+          "end_date": "Sat Apr 27 2019",
+          "inventory_level": 120,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 35,
+          "inventory_end_of_period": 126
+        },
+        {
+          "start_date": "Sat Jun 22 2019",
+          "end_date": "Sat Apr 27 2019",
+          "inventory_level": 105,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 43,
+          "inventory_end_of_period": 125
+        }
+      ]
+    },
+    {
+      "start_date": "Mon Apr 08 2019",
+      "end_date": "Wed Apr 10 2019",
+      "inventory_level": 108,
+      "product_id": 4415,
+      "forecasts": [
+        {
+          "start_date": "Thu Jun 27 2019",
+          "end_date": "Thu May 02 2019",
+          "inventory_level": 118,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 40,
+          "inventory_end_of_period": 126
+        },
+        {
+          "start_date": "Thu Jun 27 2019",
+          "end_date": "Thu May 02 2019",
+          "inventory_level": 112,
+          "inventory_level_required": 125,
+          "orders_in_last_period": 43,
+          "inventory_end_of_period": 137
+        },
+        {
+          "start_date": "Thu Jun 27 2019",
+          "end_date": "Thu May 02 2019",
+          "inventory_level": 114,
+          "inventory_level_required": 126,
+          "orders_in_last_period": 33,
+          "inventory_end_of_period": 127
+        }
+      ]
+    },
+    {
+      "start_date": "Sat Apr 06 2019",
+      "end_date": "Thu Apr 11 2019",
+      "inventory_level": 110,
+      "product_id": 5010,
+      "forecasts": [
+        {
+          "start_date": "Tue Jul 02 2019",
+          "end_date": "Sun Apr 07 2019",
+          "inventory_level": 108,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 45,
+          "inventory_end_of_period": 137
+        },
+        {
+          "start_date": "Tue Jul 02 2019",
+          "end_date": "Sun Apr 07 2019",
+          "inventory_level": 105,
+          "inventory_level_required": 128,
+          "orders_in_last_period": 40,
+          "inventory_end_of_period": 122
+        },
+        {
+          "start_date": "Tue Jul 02 2019",
+          "end_date": "Sun Apr 07 2019",
+          "inventory_level": 116,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 40,
+          "inventory_end_of_period": 126
+        }
+      ]
+    },
+    {
+      "start_date": "Sun Apr 07 2019",
+      "end_date": "Tue Apr 09 2019",
+      "inventory_level": 116,
+      "product_id": 5521,
+      "forecasts": [
+        {
+          "start_date": "Sun Jul 07 2019",
+          "end_date": "Fri Apr 12 2019",
+          "inventory_level": 113,
+          "inventory_level_required": 121,
+          "orders_in_last_period": 47,
+          "inventory_end_of_period": 136
+        },
+        {
+          "start_date": "Sun Jul 07 2019",
+          "end_date": "Fri Apr 12 2019",
+          "inventory_level": 113,
+          "inventory_level_required": 130,
+          "orders_in_last_period": 41,
+          "inventory_end_of_period": 132
+        },
+        {
+          "start_date": "Sun Jul 07 2019",
+          "end_date": "Fri Apr 12 2019",
+          "inventory_level": 118,
+          "inventory_level_required": 124,
+          "orders_in_last_period": 38,
+          "inventory_end_of_period": 138
+        }
+      ]
+    }
+  ],
+  "hr": [
+    {
+      "first_name": "Alexandra",
+      "last_name": "Fulling",
+      "employee_id": 1498
+    },
+    {
+      "first_name": "Marty",
+      "last_name": "Altamirano",
+      "employee_id": 3187
+    },
+    {
+      "first_name": "Eveline",
+      "last_name": "Marano",
+      "employee_id": 1335
+    },
+    {
+      "first_name": "Rey",
+      "last_name": "Rettig",
+      "employee_id": 6402
+    },
+    {
+      "first_name": "Lavonna",
+      "last_name": "Kintz",
+      "employee_id": 4494
+    },
+    {
+      "first_name": "Thanh",
+      "last_name": "Merseal",
+      "employee_id": 5209
+    },
+    {
+      "first_name": "Ruben",
+      "last_name": "Vielma",
+      "employee_id": 1892
+    },
+    {
+      "first_name": "Sandi",
+      "last_name": "Nwachukwu",
+      "employee_id": 2400
+    },
+    {
+      "first_name": "Paris",
+      "last_name": "Wallor",
+      "employee_id": 1370
+    },
+    {
+      "first_name": "Randy",
+      "last_name": "Chisari",
+      "employee_id": 5975
+    },
+    {
+      "first_name": "Daniele",
+      "last_name": "Saragusa",
+      "employee_id": 5261
+    },
+    {
+      "first_name": "Stephani",
+      "last_name": "Clem",
+      "employee_id": 3227
+    },
+    {
+      "first_name": "Charlie",
+      "last_name": "Brustmann",
+      "employee_id": 1345
+    },
+    {
+      "first_name": "Mona",
+      "last_name": "Woten",
+      "employee_id": 2252
+    },
+    {
+      "first_name": "Nigel",
+      "last_name": "Voros",
+      "employee_id": 4381
+    },
+    {
+      "first_name": "Joe",
+      "last_name": "Burkes",
+      "employee_id": 1963
+    },
+    {
+      "first_name": "Homer",
+      "last_name": "Kimbrow",
+      "employee_id": 5419
+    },
+    {
+      "first_name": "Colby",
+      "last_name": "Bruestle",
+      "employee_id": 5387
+    },
+    {
+      "first_name": "Elia",
+      "last_name": "Kiel",
+      "employee_id": 6123
+    },
+    {
+      "first_name": "Leonia",
+      "last_name": "Funn",
+      "employee_id": 4457
+    }
+  ]
 }

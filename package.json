@@ -12,5 +12,8 @@
   },
   "presets": [],
   "browserslist": "> 0.25%, not dead",
-  "targets": "> 0.25%, not dead"
+  "targets": "> 0.25%, not dead",
+  "devDependencies": {
+    "node-random-name": "^1.0.1"
+  }
 }
