@@ -46,8 +46,10 @@
           $("#data").append(
             $("<li></li>")
             .append(
-              $("<a></a>")
-              .text(el + " -> " + (Array.isArray(data[el])))
+              $("<a></a>", {
+                href: window.location.origin+"/"+el
+              })
+              .text(el + " -> " + ((Array.isArray(data[el])? ""+data[el].length:"1") +" Object"))
             )
           )
         })
