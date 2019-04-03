@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 3000;
 
 // add file here
 app.use(express.static('json'));
