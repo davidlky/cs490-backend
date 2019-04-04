@@ -19,7 +19,7 @@ function getTitle(text) {
 // Make the actual CORS request.
 function makeCorsRequest() {
     // This is a sample server that supports CORS.
-    var url = 'http://localhost:3005/get_sales';
+    var url = 'http://138.197.16.214/get_sales';
 
     var xhr = createCORSRequest('GET', url);
     if (!xhr) {
