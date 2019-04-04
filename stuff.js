@@ -1,4 +1,5 @@
 var random_name = require('node-random-name');
+var DATA = require('./data.json');
 
 const sample = {
   start_date: '2013-05-05',
@@ -65,4 +66,4 @@ for (let i = 0; i < 20; i++) {
     // forecasts: forecats,
   });
 }
-console.log(JSON.stringify(a));
+console.log(Object.keys(DATA));
